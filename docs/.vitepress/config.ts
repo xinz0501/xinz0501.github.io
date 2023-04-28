@@ -29,6 +29,7 @@ export default defineConfig({
                 text: '数据结构', 
                 items: [
                   { text: '类型', link: '/javascript/runtime/data-structure/type.md' },
+                  { text: '对象', link: '/javascript/runtime/data-structure/object.md' },
                   { text: '实例', link: '/javascript/runtime/data-structure/instance.md' }
                 ]
               },

@@ -34,10 +34,13 @@ Symbol对象比较特殊，使用new调用Symbol函数会报错，但他也是Sy
 
 ## 装箱转换
 
-将基本数据类型转换为对应的对象，使用内置的Object函数，可以显式的调用装箱能力：var symbol = Object(Symbol(‘a’))。
+每一种基本类型Number、String、Boolean、Symbol在对象中都有对应的类，所谓装箱转换，正是把基本类型转换为对应的对象。  
+
+每一类装箱对象皆有私有的Class属性，这些属性可以用Object.prototype.toString获取，在javascript中，没有任何方法可以更改私有的Class属性。  
+
+将基本数据类型转换为对应的对象，使用内置的Object函数，可以显式的调用装箱能力：var symbol = Object(Symbol('a'))。
 
 ## 拆箱转换
-
 将对象类型转换为基本数据类型，遵循先拆箱再进行基本数据类型内部的转换。  
 
 拆箱转换会调用valueOf和toString两个方法，如果两个方法都不存在或者没有返回基本数据类型，就会报错。
