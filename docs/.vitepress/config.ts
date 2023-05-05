@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: '前端笔记', link: 'front-note/javascript/wenfa/lexical.md' },
-      { text: 'UI组件库', link: '/components/react/button.md' },
+      { text: 'UI组件库', link: 'components/react/button.md' },
     ],
     sidebar: {
       '/front-note' : [
@@ -19,11 +19,11 @@ export default defineConfig({
               {
                 text: '文法', 
                 items: [
-                  { text: '词法', link: '/front-note/javascript/wenfa/lexical.md' },
-                  { text: '语法', link: '/front-note/javascript/wenfa/grammar.md' }
+                  { text: '词法', link: 'front-note/javascript/wenfa/lexical.md' },
+                  { text: '语法', link: 'front-note/javascript/wenfa/grammar.md' }
                 ]
               },
-              { text: '语义', link: '/front-note/javascript/semantics.md' },
+              { text: '语义', link: 'front-note/javascript/semantics.md' },
               {
                 text: '运行时',
                 items: [
@@ -33,32 +33,32 @@ export default defineConfig({
         
                         text: '数据结构', 
                         items: [
-                          { text: '类型', link: '/front-note/javascript/runtime/data-structure/type.md' },
-                          { text: '对象', link: '/front-note/javascript/runtime/data-structure/object.md' },
-                          { text: '实例', link: '/front-note/javascript/runtime/data-structure/instance.md' }
+                          { text: '类型', link: 'front-note/javascript/runtime/data-structure/type.md' },
+                          { text: '对象', link: 'front-note/javascript/runtime/data-structure/object.md' },
+                          { text: '实例', link: 'front-note/javascript/runtime/data-structure/instance.md' }
                         ]
                       },
-                      { text: '执行过程（算法）', link: '/front-note/javascript/runtime/implement-process.md' }
+                      { text: '执行过程（算法）', link: 'front-note/javascript/runtime/implement-process.md' }
                     ]
                   }   
                 ]
               }
             ]
           },
-          { text: 'CSS', link: '/front-note/css' },
-          { text: 'Browser', link: '/front-note/browser' }
+          { text: 'CSS', link: 'front-note/css' },
+          { text: 'Browser', link: 'front-note/browser' }
         ],
         '/components' : [
           {
             text: 'React',
             items: [
-              { text: '按钮', link: '/components/react/button.md' }
+              { text: '按钮', link: 'components/react/button.md' }
             ]
           },
           {
             text: 'Vue3',
             items: [
-              { text: '按钮', link: '/components/vue3/button.md' }
+              { text: '按钮', link: 'components/vue3/button.md' }
             ]
           }
         ]

@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 前端笔记
-      link: /front-note/javascript/wenfa/lexical.md
+      link: front-note/javascript/wenfa/lexical.md
     - theme: alt
       text: UI组件库
-      link: /components/react/button.md
+      link: components/react/button.md
 
 features:
   - title: Feature A
