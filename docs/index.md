@@ -6,13 +6,13 @@ hero:
   name: "My Awesome Project"
   text: "A VitePress Site"
   tagline: My great project tagline
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  actions:
+    - theme: brand
+      text: 前端笔记
+      link: /front-note/javascript/wenfa/lexical.md
+    - theme: alt
+      text: UI组件库
+      link: /components/react/button.md
 
 features:
   - title: Feature A
