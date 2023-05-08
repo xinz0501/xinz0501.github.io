@@ -10,6 +10,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: '前端笔记', link: 'front-note/javascript/wenfa/lexical.md' },
       { text: 'UI组件库', link: 'components/react/button.md' },
+      { text: '算法', link: 'algorithm/index.md' }
     ],
     sidebar: {
       '/front-note' : [
@@ -61,6 +62,9 @@ export default defineConfig({
               { text: '按钮', link: 'components/vue3/button.md' }
             ]
           }
+        ],
+        '/algorithm' : [
+          { text: '算法',link: 'algorithm/index.md' }
         ]
     },
     socialLinks: [
